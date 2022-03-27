@@ -1,0 +1,19 @@
+{
+  "name": "eco",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i tailwind.css -o ./layouts/css/styles.css --watch",
+    "prod": "npx tailwindcss -i tailwind.css -o ./layouts/css/styles.css --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.0.23"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.5.0"
+  }
+}

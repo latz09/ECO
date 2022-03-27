@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Eco</title>
+		<link rel="stylesheet" href="css/styles.css" />
+	</head>
+	<body class="bg-gray-800">
+		<!-- bg image header -->
+		<header>
+			<div
+				class="heroImage"
+				style="height: 32rem; background-image: url('/Images/aduOnGarage.jpg')"
+			>
+				<div
+					class="flex items-center justify-center h-full w-full bg-gray-900 bg-opacity-80"
+				>
+					<div>
+						<img src="/Images/logo.png" class="opacity-80 row-span-3" alt="" />
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- Social Media Plugs -->
+
+		<div></div>
+
+		<!-- Sign up form -->
+		<div class="formcard">
+			<form action="#" class="mb-0 space-y-6" method="post">
+				<h1 class="text-2xl">Sign up for our annual newsletter</h1>
+				<!-- Email input -->
+				<div class="m-2">
+					<label for="email" class="text-sm font-medium text-gray-700"
+						>Email address</label
+					>
+					<div class="mt-1">
+						<input
+							id="email"
+							name="email"
+							type="email"
+							autocomplete="email"
+							class="inputs"
+							required
+							placeholder="email@email.com"
+						/>
+					</div>
+				</div>
+				<!-- First name input -->
+				<div class="m-2">
+					<label for="firstname">First Name</label>
+					<div>
+						<input type="text" placeholder="jane" class="inputs" />
+					</div>
+				</div>
+				<!-- zip code input -->
+				<div class="m-2">
+					<label for="zipcode">Zipcode</label>
+					<div>
+						<input type="text" placeholder="zip" class="inputs" />
+					</div>
+				</div>
+				<!-- checkbox input -->
+				<label class="md:w-2/3 block text-gray-500 font-bold">
+					<input class="checkbox" type="checkbox" />
+					<span class="text-sm"> Send me your annual newsletter! </span>
+				</label>
+				<h1 class="text-center text-xl">Some question</h1>
+				<!-- options input -->
+				<select class="dropdown">
+					<option>Option 1</option>
+					<option>Option 2</option>
+					<option>Option 3</option>
+					<option>Option 4</option>
+				</select>
+				<!-- button -->
+				<button
+					class="border-2 bg-blue-600 rounded-xl shadow-xl text-white p-2 w-full"
+				>
+					Signup
+				</button>
+			</form>
+		</div>
+	</body>
+</html>

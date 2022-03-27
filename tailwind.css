@@ -1,0 +1,45 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .formcard {
+        @apply bg-gray-100 rounded-lg sm:px-10 m-10 p-4 border-2
+    }
+    .heroImage {
+        @apply w-full bg-cover bg-center
+    }
+    .inputs {
+        @apply w-full shadow-md border-gray-300 focus:border-yellow-400 focus:ring-yellow-600
+    }
+    .checkbox {
+        @apply rounded border-gray-300 text-pink-400 focus:ring-pink-300
+    }
+    .dropdown {
+        @apply block appearance-none w-full shadow-md border-gray-300
+    }
+   
+
+
+
+
+/* @layer components {
+    .btn {
+        @apply p-2 m-2 rounded-2xl text-center
+    }
+	.btn-primary {
+		@apply bg-blue-800;
+	}
+	.btn-secondary {
+		@apply bg-green-300  text-white;
+	}
+}
+
+@layer components {
+    .box {
+        height: 6rem;
+        line-height: 6rem;
+        text-align: center;
+        background-color: #5EEAD4
+    }
+} */
