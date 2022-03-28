@@ -3,25 +3,49 @@
 @tailwind utilities;
 
 @layer components {
-    .formcard {
-        @apply bg-gray-100 rounded-lg sm:px-10 m-10 p-4 border-2
-    }
     .heroImage {
-        @apply w-full bg-cover bg-center
+		@apply w-full min-h-screen bg-cover bg-center rounded-xl;
+	}
+    .navbar {
+        @apply font-semibold tracking-widest p-8 shadow bg-primary-light text-primary-darkest
     }
-    .inputs {
-        @apply w-full shadow-md border-gray-300 focus:border-yellow-400 focus:ring-yellow-600
+
+    .navbarlink {
+        @apply text-lg
     }
-    .checkbox {
-        @apply rounded border-gray-300 text-pink-400 focus:ring-pink-300
-    }
-    .dropdown {
-        @apply block appearance-none w-full shadow-md border-gray-300
-    }
-   
 
 
 
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+	.formcard {
+		@apply bg-primary-darkest rounded-2xl mt-12 border-2 border-primary-light font-bold text-primary text-sm;
+	}
+	.inputs {
+		@apply w-full shadow-md border-primary-lightest focus:ring-green-300 focus:shadow-xl bg-primary-light rounded-xl font-thin tracking-widest font-serif text-gray-900;
+	}
+	.checkbox {
+		@apply rounded border-gray-300 text-pink-400 focus:ring-pink-300 focus:text-4xl;
+	}
+	.dropdown {
+		@apply block appearance-none w-full;
+	}
+	.btn-form {
+		@apply border-2 bg-primary-light rounded-xl p-2 w-full font-serif tracking-widest font-bold text-primary-darkest shadow-2xl hover:shadow-2xl shadow-primary hover:text-xl;
+	}
+}
 
 /* @layer components {
     .btn {
